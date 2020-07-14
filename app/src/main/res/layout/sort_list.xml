@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/desc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_toRightOf="@+id/asc_button"
+        android:text="DESC" />
+
+    <ListView
+        android:id="@+id/name_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc_button" >
+    </ListView>
+
+    <Button
+        android:id="@+id/asc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/name_list"
+        android:layout_marginLeft="54dp"
+        android:text="ASC" />
+
+</RelativeLayout>
